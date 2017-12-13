@@ -25,10 +25,8 @@ function generateRandomLetters() {
   return array;
 }
 
-module.exports = generateRandomLetters;
 
-
-describe.only('quickSort', function() {
+describe('quickSort', function() {
 
   it('should be a function', function() {
     expect(quickSort).to.be.a('function');
